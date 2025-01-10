@@ -8,6 +8,10 @@ class thinkpad {
 
 		return old;
 	}
+	
+	String getBrand() {
+		return brand;
+	}
 }
 
 public class MethodsPrac {
@@ -21,5 +25,9 @@ public class MethodsPrac {
 	int yearsOld = pc.calculate();
 
 	System.out.println("The " + pc.laptop + " was released in " + pc.year + "\n" + "Now is " + yearsOld + " y/o.");
+
+	String brand = pc.getBrand();
+
+	System.out.println("This laptop is: " + brand);
    }
 }

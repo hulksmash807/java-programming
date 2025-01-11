@@ -1,6 +1,6 @@
 class Car {
 	public void carModel(int year, String brand ,String type, String model) {
-		System.out.println("This JDM " + year + " " + brand + " " + type + " " + model);
+		System.out.println("This JDM " + year + " " + brand + " " + type + " " + model + " is an epic right-hand rarity.");
 	}
 
 	public void specs(double engine, String engineSpecs){
